@@ -1,8 +1,11 @@
 # nfasimulator
 -NFA(non-deterministic finite automaton) Simulator(C++): program that determines whether an NFA given by the user in a specified format will accept or reject a string given by the user. Not compatible with epsilon NFAs. Number of states may be no more than 64.
 Specified example format is as follows:
+
 Number of states: 8
+
 Alphabet size: 2
+
 Accepting states: 0 1 3 4 7
 
 
