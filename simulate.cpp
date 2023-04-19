@@ -122,6 +122,8 @@ int main(int argc, char *argv[]) {
 				if( acceptingStates.at(i) == currentStateSet.at(ii)) {
 					foundAcceptingState++;
 					std::cout << "accept" << '\n';
+					i+= acceptingStates.size();
+					break;
 				//	std::cout << "current state set:" << '\n';
 				//	for(int j = 0; j < currentStateSet.size();j++)
 					//	std::cout << currentStateSet.at(j) << " " << '\n';
